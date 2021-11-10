@@ -1,10 +1,9 @@
-<script>
-  html,body {
-    background: #0d1117;
-    color: #fff;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif, Ubuntu, monospace, serif;
-    position: fixed;
-    left:0;top:0;padding: 0 0;margin: 0 0;
-    display:block;width:100vw;height:100vh;
-  }
-</script>
+/* <link rel="stylesheet" href="/darkBase.css"> */
+html,body {
+  background: #0d1117;
+  color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif, Ubuntu, monospace, serif;
+  position: fixed;
+  left:0;top:0;padding: 0 0;margin: 0 0;
+  display:block;width:100vw;height:100vh;
+}
