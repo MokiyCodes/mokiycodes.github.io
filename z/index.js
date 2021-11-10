@@ -2,8 +2,8 @@
   /* Search for arg */
   let url;
   const s = window.location.search != '' && window.location.search.length > 1 ? (window.location.search+window.location.hash.replace('#','&')) : window.location.hash.replace('#','?')
-  if (window.location.search != '' && window.location.hash != '') {
-    const params = new URLSearchparams(s);
+  if (s) {
+    const params = new URLSearchParams(s);
     const searchFor = ["u","url","e","enc","encoded","d","dest","destination","goto","gt"];
     searchFor.forEach((el)=>{
       if (url) return;
